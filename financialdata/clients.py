@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, engine
 def get_mysql_financialdata_conn() -> engine.base.Connection:
     user = "root"
     password = "test"
-    host = "localhosta"
+    host = "localhost"
     port = "3306"
     database = "FinancialData"
 
