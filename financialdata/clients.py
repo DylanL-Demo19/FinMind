@@ -6,7 +6,7 @@ def get_mysql_financialdata_conn() -> engine.base.Connection:
     password = "test"
     host = "localhost"
     port = "3306"
-    database = "FinancialData"
+    database = "financialdata"
 
     address = f"mysql+pymysql://{user}:{password}@{host}:{port}/{database}"
     engine = create_engine(address)
